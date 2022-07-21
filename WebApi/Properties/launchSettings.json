@@ -1,0 +1,35 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:43123",
+      "sslPort": 44364
+    }
+  },
+  "profiles": {
+    "WebApiCore": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      //"launchBrowser": true,   //自动启动浏览器
+      //"launchUrl": "swagger",  //启动浏览器后默认打开的页面  //地址"../swagger"
+
+
+      //这里使用localhost, 并不是本机的ip地址。只是一个虚拟的ip地址，无论在什么网络环境中都是127.0.0.1
+      //使用0.0.0.0作为ip，可以监听本地IP4的所有地址, 也就是使用本机实际的IP地址。
+      "applicationUrl": "http://localhost:5000;https://localhost:5001;http://0.0.0.0:80;https://0.0.0.0:443", //Api的rootUrl和端口号
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      //"launchBrowser": true,
+      //"launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
