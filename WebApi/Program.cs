@@ -1,8 +1,13 @@
 ﻿using WebApi.MiddleWares;
+using AzureSpeech;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+//builder.Services.AddSingleton(typeof(AzureTextToSpeechService));
+//builder.Services.AddSingleton<IAzureTextToSpeechService, AzureTextToSpeechService>();
+//如果不使用接口，可以这样写
+builder.Services.AddSingleton<AzureTextToSpeechService, AzureTextToSpeechService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

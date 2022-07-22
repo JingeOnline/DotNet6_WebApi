@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{0B11B2E3-2338-49E6-B36D-8E08F10F0E07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{0B11B2E3-2338-49E6-B36D-8E08F10F0E07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureSpeech", "AzureSpeech\AzureSpeech.csproj", "{995B9037-599B-456B-B7FB-4ED78C8DFCD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0B11B2E3-2338-49E6-B36D-8E08F10F0E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B11B2E3-2338-49E6-B36D-8E08F10F0E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B11B2E3-2338-49E6-B36D-8E08F10F0E07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{995B9037-599B-456B-B7FB-4ED78C8DFCD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{995B9037-599B-456B-B7FB-4ED78C8DFCD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{995B9037-599B-456B-B7FB-4ED78C8DFCD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{995B9037-599B-456B-B7FB-4ED78C8DFCD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

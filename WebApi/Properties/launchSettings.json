@@ -1,4 +1,5 @@
-﻿{
+﻿//这里设置只有在VS Debug中启动才起作用，如果运行exe程序，需要到appsettings.json中设置。
+{
   "$schema": "https://json.schemastore.org/launchsettings.json",
   "iisSettings": {
     "windowsAuthentication": false,
